@@ -1,6 +1,6 @@
 {
     "name" : "Azure Serverless WTH in Codespaces",
-    "image": "mcr.microsoft.com/dotnet/sdk:8.0",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:6.0",
     "features": {
         "ghcr.io/devcontainers/features/common-utils": {},
         "ghcr.io/devcontainers/features/azure-cli": {}
