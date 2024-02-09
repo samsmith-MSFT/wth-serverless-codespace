@@ -9,7 +9,7 @@
       "cpus": 1
     },
     "waitFor": "onCreateCommand",
-    "updateContentCommand": "",
+    "updateContentCommand": "sudo apt install nodejs",
     "postCreateCommand": "",
     "customizations": {
       "codespaces": {
