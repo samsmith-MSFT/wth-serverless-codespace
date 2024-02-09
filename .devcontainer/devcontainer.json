@@ -1,0 +1,25 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "hostRequirements": {
+      "cpus": 1
+    },
+    "waitFor": "onCreateCommand",
+    "updateContentCommand": "apt install dotnet-sdk-6.0",
+    "postCreateCommand": "",
+    "customizations": {
+      "codespaces": {
+        "openFiles": []
+      },
+      "vscode": {
+        "extensions": [
+          "ms-dotnettools.csharp",
+          "ms-azuretools.vscode-azurefunctions",
+          "ms-vscode.vscode-typescript-next",
+          "ms-vscode.azure-account",
+          "ms-azuretools.vscode-azureresourcegroups",
+          "gruntfuggly.todo-tree",
+          "ms-vscode.azurecli"
+        ]
+      }
+    }
+  }
