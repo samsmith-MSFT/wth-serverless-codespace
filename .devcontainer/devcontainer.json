@@ -9,7 +9,7 @@
       "cpus": 1
     },
     "waitFor": "onCreateCommand",
-    "updateContentCommand": "sudo apt install nodejs",
+    "updateContentCommand": "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash nvm install v18",
     "postCreateCommand": "",
     "customizations": {
       "codespaces": {
